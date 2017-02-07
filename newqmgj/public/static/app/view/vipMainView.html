@@ -1,0 +1,51 @@
+<div class="vip-main-box">
+    <h1 class="main-title">我关注的项目</h1>
+    <div class="main-line"></div>
+    <section class="main-body clearfix">
+        <div ng-repeat="item in careData" class="main-item ng-scope">
+            <div class="item-box clearfix">
+                <img ng-src="{{item.img}}" alt="">
+                <div class="item-info">
+                    <h1 class="ng-binding">{{item.name}}</h1>
+                    <h2 class="ng-binding">by {{item.fname}}</h2>
+                    <div class="item-process">
+                        <div style="width: {{item.sp}}%"></div>
+                    </div>
+                    <div>已筹资：<span class="font-blod ng-binding">{{item.rprice | currency:'￥'}}</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="vip-main-box">
+    <h1 class="main-title">当前最热</h1>
+    <div class="main-line"></div>
+    <section class="main-hot-body clearfix">
+        <div class="item-box ng-scope" ng-repeat="item in hotData">
+            <div class="item-group">
+                <img ng-src="{{item.img}}" alt="">
+                <div class="item-info">
+                    <h1 class="ng-binding">{{item.name}}</h1>
+                    <div class="item-desc ng-binding">{{item.desc | substr:55}}...</div>
+                    <div class="item-sp">
+                        <div class="item-sp2" style="width:{{item.sp}}%"></div>
+                    </div>
+                    <ul class="clearfix">
+                        <li>
+                            <h1 class="ng-binding">{{item.sp}}%</h1>
+                            <p>进度</p>
+                        </li>
+                        <li>
+                            <h1 class="ng-binding">{{item.rprice | currency:'￥'}}</h1>
+                            <p>支持金额</p>
+                        </li>
+                        <li>
+                            <h1 class="ng-binding">{{item.rday}}</h1>
+                            <p>剩余天数</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

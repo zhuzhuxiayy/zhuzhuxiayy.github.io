@@ -1,0 +1,77 @@
+{
+    "resultCode": "0000",
+    "result": {
+        "procare": [
+	        {
+	            "img": "static/app/images/infoimg.jpg",
+	            "name": "《犹太人在上海》",
+	            "fname": "中国星",
+	            "sp": "56",
+	            "rprice": "12345"
+	        }, 
+	        {
+	            "img": "static/app/images/infoimg.jpg",
+	            "name": "《犹太人在北京》",
+	            "fname": "中国星",
+	            "sp": "56",
+	            "rprice": "12345"
+	        }, 
+	        {
+	            "img": "static/app/images/infoimg.jpg",
+	            "name": "《犹太人在河南》",
+	            "fname": "中国星",
+	            "sp": "56",
+	            "rprice": "12345"
+	        }, 
+	        {
+	            "img": "static/app/images/infoimg.jpg",
+	            "name": "《犹太人在杭州》",
+	            "fname": "中国星",
+	            "sp": "56",
+	            "rprice": "12345"
+	        }, 
+	        {
+	            "img": "static/app/images/infoimg.jpg",
+	            "name": "《犹太人在广东》",
+	            "fname": "中国星",
+	            "sp": "56",
+	            "rprice": "12345"
+	        }
+    	],
+        "prohot":[
+        	{
+        		"img":"static/app/images/tvlist.jpg",
+        		"name":"《犹太人》",
+        		"desc":"aerlkg dfklgn alk nfgaskldn f;laskd flkad fa;lsdk fn",
+        		"sp":"45",
+        		"rprice":"34234",
+        		"rday":"332"
+        	},
+        	{
+        		"img":"static/app/images/tvlist.jpg",
+        		"name":"《犹太人》",
+        		"desc":"aerlkg dfklgn alk nfgaskldn f;laskd flkad fa;lsdk fna;owef alwenf ;lawknfladnflaksdnfa;fnd ;af;anf ;anf;a",
+        		"sp":"45",
+        		"rprice":"34234",
+        		"rday":"332"
+        	},
+        	{
+        		"img":"static/app/images/tvlist.jpg",
+        		"name":"《犹太人》",
+        		"desc":"aerlkg dfklgn alk nfgaskldn f;laskd flkad fa;lsdk fn",
+        		"sp":"45",
+        		"rprice":"34234",
+        		"rday":"332"
+        	},
+        	{
+        		"img":"static/app/images/tvlist.jpg",
+        		"name":"《犹太人》",
+        		"desc":"aerlkg dfklgn alk nfgaskldn f;laskd flkad fa;lsdk fn",
+        		"sp":"45",
+        		"rprice":"34234",
+        		"rday":"332"
+        	}
+        ]
+    },
+    "resultMsg": "发送成功"
+}

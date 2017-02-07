@@ -1,4 +1,4 @@
-var timer = setInterval(change, 1000);
+var timer = setInterval(change, 800);
 clearInterval(timer);
 var index = 3;
 
